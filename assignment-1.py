@@ -32,11 +32,4 @@ tokens = word_tokenize(text_lower)
 print("\nAfter tokenization:")
 print(tokens)
 stop_words = set(stopwords.words("english"))
-
-lemmatized_tokens = [token.lemma_ for token in doc]
-print("\nAfter lemmatization:")
-print(lemmatized_tokens)
-# Final output
-final_text = " ".join(lemmatized_tokens)
-print("\nFinal cleaned text:")
-print(final_text)
+    

@@ -1,5 +1,6 @@
 import spacy
 
+
 nlp = spacy.load("en_core_web_sm")
 text = "researchers analayze large datasets efficently."
 
@@ -11,3 +12,4 @@ for token in doc:
         f"{token.text:<15}"
         f"{token.head.text}"
     )
+
